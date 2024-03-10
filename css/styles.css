@@ -68,11 +68,6 @@ ol {
   color: #2e2f42;
 }
 
-.nav-list {
-  display: flex;
-  gap: 40px;
-}
-
 .nav-list-link {
   display: flex;
   gap: 40px;
@@ -159,9 +154,8 @@ ol {
   background-color: #404bbf;
 }
 
-/* button {
-  cursor: pointer;
-} */
+button {
+}
 
 /* Section features */
 
@@ -210,10 +204,6 @@ ol {
 
 /* Section team */
 
-.main-images {
-  display: block;
-}
-
 .team {
   background-color: #f4f4fd;
   padding: 120px 0 120px;
@@ -244,10 +234,6 @@ ol {
 }
 
 .main-images {
-  display: block;
-}
-
-.team-images {
   display: block;
 }
 
