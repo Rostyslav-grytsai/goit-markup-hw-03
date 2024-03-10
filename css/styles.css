@@ -73,6 +73,11 @@ ol {
   gap: 40px;
 }
 
+.nav-list-link {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -238,6 +243,10 @@ ol {
   height: 380px;
 }
 
+.main-images {
+  display: block;
+}
+
 .team-images {
   display: block;
 }
@@ -327,7 +336,7 @@ ol {
 }
 
 .footer-wrap {
-  padding: 100px 0 100;
+  padding: 100px 0 100px;
 }
 
 .logo-wrap {
