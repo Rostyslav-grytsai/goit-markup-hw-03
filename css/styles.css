@@ -68,7 +68,7 @@ ol {
   color: #2e2f42;
 }
 
-.nav-list-link {
+.nav-list {
   display: flex;
   gap: 40px;
 }
@@ -81,7 +81,6 @@ ol {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
-  display: flex;
 }
 
 .nav-link:hover,
@@ -238,7 +237,7 @@ button {
   padding: 32px 0 32px;
 }
 
-.main-images {
+.team-images {
   display: block;
 }
 
@@ -284,6 +283,10 @@ button {
 }
 
 .portfolio-item {
+}
+
+.portfolio-images {
+  display: block;
 }
 
 .portfolio-tex-wrap {
