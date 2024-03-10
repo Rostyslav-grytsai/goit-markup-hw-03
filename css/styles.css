@@ -127,9 +127,9 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .effective-buy-btn {
   padding: 16px 32px;
@@ -139,12 +139,13 @@ ol {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  border-radius: 4px;
-  border: none;
   display: block;
-  min-width: 169px;
-  height: 56px;
   margin: 0 auto;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 169px;
 }
 
 .effective-buy-btn:hover,
@@ -152,11 +153,24 @@ ol {
   background-color: #404bbf;
 }
 
-button {
+/* button {
   cursor: pointer;
-}
+} */
 
 /* Section features */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .features {
   padding-top: 120px;
@@ -190,7 +204,7 @@ button {
 
 /* Section team */
 
-.main-team-images {
+.main-images {
   display: block;
 }
 
@@ -224,6 +238,7 @@ button {
 }
 
 .team-images {
+  display: block;
 }
 
 .team-text-wrap {
@@ -276,6 +291,9 @@ button {
   gap: 48px 24px;
 }
 
+.portfolio-item {
+}
+
 .portfolio-tex-wrap {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -308,7 +326,7 @@ button {
 }
 
 .footer-wrap {
-  padding: 100px 0 100px;
+  padding: 100px 0 100;
 }
 
 .logo-wrap {
