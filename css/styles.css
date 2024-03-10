@@ -229,10 +229,6 @@ button {
   height: 380px;
 }
 
-.main-images {
-  display: block;
-}
-
 .team-text-wrap {
   display: flex;
   align-items: center;
@@ -240,6 +236,10 @@ button {
   flex-direction: column;
   gap: 8px;
   padding: 32px 0 32px;
+}
+
+.main-images {
+  display: block;
 }
 
 .team-subtitle {
@@ -315,9 +315,6 @@ button {
 
 .footer {
   background-color: #2e2f42;
-}
-
-.footer-wrap {
   padding: 100px 0 100px;
 }
 
@@ -329,8 +326,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-part-text {
@@ -342,10 +337,18 @@ button {
   color: #f4f4fd;
 }
 
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.text-footer {
   max-width: 264px;
 }
